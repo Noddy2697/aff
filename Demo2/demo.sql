@@ -1,0 +1,18 @@
+use mydb;
+select * from login;
+drop table login;
+create table hos(hospname varchar(20), loc varchar(20));
+insert into admin values('kkk','kkk','kkk'); 
+create table hos(hospname varchar(20), loc varchar(20));
+insert into hos values('cbs','mumbai');
+create table doc(docname varchar(20), uname varchar(20), pass varchar(20));
+drop table hos;
+create table hosp(docname varchar(20), uname varchar(20), pass varchar(20));
+drop table hosp;
+create table hosp(hospname varchar(20), uname varchar(20), pass varchar(20));
+create table pat(patname varchar(20), uname varchar(20), pass varchar(20));
+insert into hosp values('cbs','cbs', 'cbs');
+insert into doc values('abc','abc', 'abc');
+insert into pat values('lll','lll', 'lll');
+show tables;
+select * from doc;
